@@ -1,0 +1,76 @@
+DT_Entropy:
+Accuracy: 0.8574
+ROC AUC: 0.8471
+TPR: 0.9486
+FPR: 0.2545
+Classification report:
+              precision    recall  f1-score   support
+
+         0.0     0.9221    0.7455    0.8245     37000
+         1.0     0.8204    0.9486    0.8799     45332
+
+    accuracy                         0.8574     82332
+   macro avg     0.8713    0.8471    0.8522     82332
+weighted avg     0.8661    0.8574    0.8550     82332
+
+Confusion matrix:
+[[27585  9415]
+ [ 2329 43003]]
+----------------------------------------------------------------
+DT_Gini:
+Accuracy: 0.8537
+ROC AUC: 0.8421
+TPR: 0.9562
+FPR: 0.2720
+Classification report:
+              precision    recall  f1-score   support
+
+         0.0     0.9314    0.7280    0.8172     37000
+         1.0     0.8116    0.9562    0.8780     45332
+
+    accuracy                         0.8537     82332
+   macro avg     0.8715    0.8421    0.8476     82332
+weighted avg     0.8654    0.8537    0.8507     82332
+
+Confusion matrix:
+[[26937 10063]
+ [ 1985 43347]]
+----------------------------------------------------------------
+RF_Entropy:
+Accuracy: 0.8704
+ROC AUC: 0.8582
+TPR: 0.9789
+FPR: 0.2626
+Classification report:
+              precision    recall  f1-score   support
+
+         0.0     0.9662    0.7374    0.8364     37000
+         1.0     0.8204    0.9789    0.8927     45332
+
+    accuracy                         0.8704     82332
+   macro avg     0.8933    0.8582    0.8645     82332
+weighted avg     0.8859    0.8704    0.8674     82332
+
+Confusion matrix:
+[[27283  9717]
+ [  955 44377]]
+----------------------------------------------------------------
+RF_Gini:
+Accuracy: 0.8760
+ROC AUC: 0.8653
+TPR: 0.9707
+FPR: 0.2400
+Classification report:
+              precision    recall  f1-score   support
+
+         0.0     0.9548    0.7600    0.8464     37000
+         1.0     0.8321    0.9707    0.8960     45332
+
+    accuracy                         0.8760     82332
+   macro avg     0.8935    0.8653    0.8712     82332
+weighted avg     0.8872    0.8760    0.8737     82332
+
+Confusion matrix:
+[[28120  8880]
+ [ 1330 44002]]
+----------------------------------------------------------------

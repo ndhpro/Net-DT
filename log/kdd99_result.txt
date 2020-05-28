@@ -1,0 +1,76 @@
+DT_Entropy:
+Accuracy: 0.9998
+ROC AUC: 0.9996
+TPR: 0.9993
+FPR: 0.0001
+Classification report:
+              precision    recall  f1-score   support
+
+         0.0     0.9998    0.9999    0.9999    119023
+         1.0     0.9995    0.9993    0.9994     29184
+
+    accuracy                         0.9998    148207
+   macro avg     0.9996    0.9996    0.9996    148207
+weighted avg     0.9998    0.9998    0.9998    148207
+
+Confusion matrix:
+[[119007     16]
+ [    19  29165]]
+----------------------------------------------------------------
+DT_Gini:
+Accuracy: 0.9998
+ROC AUC: 0.9996
+TPR: 0.9993
+FPR: 0.0001
+Classification report:
+              precision    recall  f1-score   support
+
+         0.0     0.9998    0.9999    0.9999    119023
+         1.0     0.9995    0.9993    0.9994     29184
+
+    accuracy                         0.9998    148207
+   macro avg     0.9997    0.9996    0.9996    148207
+weighted avg     0.9998    0.9998    0.9998    148207
+
+Confusion matrix:
+[[119009     14]
+ [    21  29163]]
+----------------------------------------------------------------
+RF_Entropy:
+Accuracy: 0.9999
+ROC AUC: 0.9998
+TPR: 0.9997
+FPR: 0.0001
+Classification report:
+              precision    recall  f1-score   support
+
+         0.0     0.9999    0.9999    0.9999    119023
+         1.0     0.9996    0.9997    0.9996     29184
+
+    accuracy                         0.9999    148207
+   macro avg     0.9998    0.9998    0.9998    148207
+weighted avg     0.9999    0.9999    0.9999    148207
+
+Confusion matrix:
+[[119011     12]
+ [     9  29175]]
+----------------------------------------------------------------
+RF_Gini:
+Accuracy: 0.9999
+ROC AUC: 0.9998
+TPR: 0.9998
+FPR: 0.0001
+Classification report:
+              precision    recall  f1-score   support
+
+         0.0     0.9999    0.9999    0.9999    119023
+         1.0     0.9996    0.9998    0.9997     29184
+
+    accuracy                         0.9999    148207
+   macro avg     0.9997    0.9998    0.9998    148207
+weighted avg     0.9999    0.9999    0.9999    148207
+
+Confusion matrix:
+[[119010     13]
+ [     7  29177]]
+----------------------------------------------------------------
